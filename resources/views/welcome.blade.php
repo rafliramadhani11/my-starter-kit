@@ -8,22 +8,24 @@
             .matches)
     }">
 
+
+
     <head>
         @include('partials.head')
     </head>
 
-    <body
-        class="flex min-h-screen flex-col items-center gap-4 bg-white px-6 text-[#1b1b18] dark:bg-zinc-950 lg:justify-center">
-        <header class="flex justify-end w-full mt-6 lg:max-w-4xl">
+    <body class="flex min-h-screen flex-col items-center gap-4 bg-theme px-6 dark:bg-darkTheme lg:justify-center">
+        <header class="mt-6 flex w-full justify-end lg:max-w-4xl">
             <x-theme />
         </header>
 
         <div
-            class="flex items-center justify-center w-full -mt-6 transition-opacity opacity-100 duration-750 grow lg:max-w-4xl">
+            class="duration-750 -mt-6 flex w-full grow items-center justify-center opacity-100 transition-opacity lg:max-w-4xl">
             <main class="w-full lg:max-w-4xl">
-                <div class="flex flex-col justify-center text-[13px] leading-[20px] dark:text-[#EDEDEC]">
-                    <h1 class="mb-1 text-3xl font-medium">Absensi Karyawan Qr Code</h1>
-                    <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]"> Solusi praktis untuk kehadiran karyawan dengan
+                <div class="flex flex-col justify-center leading-[20px]">
+                    <h1 class="mb-1 text-3xl font-medium dark:text-darkTheme">Absensi Karyawan Qr Code</h1>
+                    <p class="mb-2 text-secondary dark:text-darkSecondary"> Solusi praktis untuk kehadiran karyawan
+                        dengan
                         scan QR Code. Cepat, efisien, dan akurat. </p>
                     <div class="w-full text-sm">
                         @if (Route::has('login'))
@@ -44,7 +46,6 @@
                                     @endif
                                 @endauth
                             </nav>
-
                         @endif
                     </div>
                 </div>

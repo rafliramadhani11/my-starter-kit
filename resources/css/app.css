@@ -6,3 +6,7 @@
 .fi-btn {
     @apply !font-medium;
 }
+
+.fi-input-wrp {
+    @apply ring-zinc-400/50 focus-within:ring-zinc-900 dark:ring-zinc-700 dark:focus-within:ring-zinc-100 !important;
+}
