@@ -18,11 +18,11 @@
                         Dashboard
                     </x-nav-link>
                 </li>
-                {{-- <li>
+                <li>
                     <x-nav-link :href="route('profile.edit')" :active="request()->routeIs('Profile')">
                         Profile
                     </x-nav-link>
-                </li> --}}
+                </li>
 
             </ul>
 
