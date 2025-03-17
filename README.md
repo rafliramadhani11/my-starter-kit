@@ -1,16 +1,16 @@
-# About this starter kit
+# About this starter kit ✨🐱‍🏍
 
-I made this repo to make it easier for if i want to build some laravel project
+I made this repo to make it easier if i want to build some laravel project (u can clone this repo if u need 😁👌)
 
 this starter kit literally from laravel breeze , I just changed it a little to match what I wanted
 
 ### EXCEPT (but u can add that feature cause template still exists)
 
--   Register Page
--   Forgot Password
--   Email Verif
+-   Register Page ❌
+-   Forgot Password ❌
+-   Email Verif ❌
 
-# Requirements
+# Requirements 👀
 
 I recommend using the latest version
 
@@ -19,7 +19,7 @@ I recommend using the latest version
 -   [php](https://www.php.net/downloads.php)
 -   [Laravel](https://laravel.com/docs/12.x/installation)
 
-# Tech
+# Tech 🌟
 
 -   Tailwindcss v.3
 -   [Livewire Rate Limiting](https://github.com/danharrin/livewire-rate-limiting?ref=madewithlaravel.com) (I have not applied, you can apply it yourself by looking at the documentation provided by the developer)
@@ -33,7 +33,7 @@ I recommend using the latest version
 -   Livewire v.3
 -   Livewire Volt v.1
 
-# Installation
+# Installation ✍
 
 -   First of all you must clone this repo
 
