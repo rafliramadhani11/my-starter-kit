@@ -1,3 +1,15 @@
+# About this starter kit
+
+I made this repo to make it easier for if i want to build some laravel project
+
+this starter kit literally from laravel breeze , I just changed it a little to match what I wanted
+
+### EXCEPT (but u can add that feature cause template still exists)
+
+-   Register Page
+-   Forgot Password
+-   Email Verif
+
 # Requirements
 
 I recommend using the latest version
@@ -58,7 +70,7 @@ copy .env.example .env
 -   Make new key laravel app
 
 ```bash
-php artisan key generate
+php artisan key:generate
 ```
 
 -   Run your database
@@ -67,8 +79,13 @@ php artisan key generate
 php artisan migrate
 ```
 
--   Run your server
+-   Run your css & server
+    (dont forget to run your xampp or laragon, (i recommend use herd for laravel project, so you don't need to do 'php artisan serve', just npm run dev))
 
 ```bash
-php artisan serve
+npm run dev
+
+# &&
+
+php artisan serve     #in other terminal on the root folder
 ```
