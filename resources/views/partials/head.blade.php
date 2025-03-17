@@ -4,8 +4,8 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="icon" type="image/png" href="{{ asset('img/logo-birdie-hexagon.png') }}">
-<link rel="icon" type="image/x-icon" href="{{ asset('img/logo-birdie-hexagon.png') }}">
+<link rel="icon" type="image/png" href="{{ asset('img/Laravel.png') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('img/Laravel.png') }}">
 
 @hasSection('title')
     <title>

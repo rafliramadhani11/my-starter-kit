@@ -2,12 +2,13 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" x-data="{
     darkMode: localStorage.getItem('darkMode') || 'system',
 
-    get logo() {
+    {{-- For matching Brand Logo dark/light mode --}}
+    {{-- get logo() {
         return (this.darkMode === 'dark' ||
                 (this.darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) ?
             '{{ asset('img/logo-birdie-hexagon.png') }}' :
             '{{ asset('img/logo-birdie-hexagon-light.png') }}';
-    }
+    } --}}
 }" x-init="if (!localStorage.getItem('darkMode')) localStorage.setItem('darkMode', 'system');
 $watch('darkMode', val => localStorage.setItem('darkMode', val))"
     x-bind:class="{

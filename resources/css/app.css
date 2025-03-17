@@ -3,6 +3,9 @@
 @tailwind utilities;
 @tailwind variants;
 
+/* u can apply this style or not for black and white theme using zinc color */
+/* dont forget to check AppServiceProvider for filament theme color */
+
 .fi-btn {
     @apply font-medium  !important;
 }

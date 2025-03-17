@@ -5,8 +5,8 @@
         {{-- Navbar header --}}
 
         <div class="flex items-center gap-x-3">
-            <img :src="logo" alt="Logo" class="h-auto w-10">
-            <p class="text-base text-theme dark:text-darkTheme">PT Birdie Indonesia</p>
+            {{-- <img :src="logo" alt="Logo" class="w-10 h-auto"> --}}
+            <p class="text-base text-theme dark:text-darkTheme">Laravel App</p>
         </div>
 
         {{-- Navbar List --}}
