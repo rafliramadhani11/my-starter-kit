@@ -67,7 +67,7 @@ copy .env.example .env
 
 -   Open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
 
--   Make new key laravel app
+-   Register ur key app
 
 ```bash
 php artisan key:generate
